@@ -16,9 +16,10 @@ Compiling, Training, and Evaluating the Model
 - Attempt 1 - 43.7%
 - Attempt 2 - 46.6%
 - Attempt 3 - 46.7%
-#### Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+#### Summary: 
 
 Altough the desired performance level was not achieved, we learned that changing activation functions, adding more neurons and layers as well as epochs improves optimization. A recommendation would be to try optimizers other than 'adam' and see if that makes a significant difference. 
+**Addionally, we could use RandomForest Classifier as it is faster, more robust and scalable than deep learning and achievs similar performace. Another suggestion is to use SVM model which would yield similar predictive yield.
 
 Attempt 1
 ![1](https://user-images.githubusercontent.com/92958091/161800911-271c108c-b4be-4823-b053-2108c84ebbb8.png)
